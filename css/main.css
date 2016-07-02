@@ -1,0 +1,43 @@
+header{
+  width:135px;
+  background:white;
+  padding:30px;
+}
+
+li{
+  list-style:none; 
+}
+
+.nav-grid{
+  width:20%;
+  float:left;
+  background-color: white;
+  max-width: 135px;
+}
+
+.main-grid{
+  width:80%;
+  float:right;
+  background-color: 
+}
+
+body{
+  color: #B1B9C1;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

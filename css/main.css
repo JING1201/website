@@ -1,24 +1,28 @@
-header{
-  width:135px;
-  background:white;
-  padding:30px;
+.sidebar{
+vertical-align: right;
 }
 
 li{
   list-style:none; 
+  text-align: center;
 }
+.logo{
+  text-align: center;
+}
+
+.btn{
+color:grey;
+background-color: white;
+}
+
 
 .nav-grid{
-  width:20%;
-  float:left;
-  background-color: white;
-  max-width: 135px;
-}
+float:center;
+padding:15px;
 
-.main-grid{
-  width:80%;
-  float:right;
-  background-color: 
+}
+.grey{
+  color:grey;
 }
 
 body{
@@ -32,7 +36,9 @@ body{
 }
 
 
-
+.form-group{
+  text-align: center;
+}
 
 
 

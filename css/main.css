@@ -1,11 +1,22 @@
-.sidebar{
-vertical-align: right;
+body{
+  color: #B1B9C1;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
 }
 
 li{
   list-style:none; 
   text-align: center;
 }
+
+.sidebar{
+vertical-align: right;
+}
+
 .logo{
   max-height: 60px;
 }
@@ -22,26 +33,21 @@ background-color: white;
 .nav-grid{
 float:center;
 padding:15px;
-
-}
-.grey{
-  color:grey;
 }
 
-body{
-  color: #B1B9C1;
-  font-size: 1em;
-  font-weight: 200;
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  width: 100%;
-  text-align: center;
-  padding-top: 50px;
+.section-grid{
+  padding:5px;
 }
 
 .listserv-grid{
   padding-top: 180px;
 
 }
+
+.grey{
+  color:grey;
+}
+
 
 .form-group{
   text-align: center;
@@ -121,7 +127,7 @@ a.btn-social,
 
 .btn-facebook
 {
-    background-color: #7da10e;
+    background-color: #E0E0E0;
 }
 
 .btn-facebook:hover
@@ -131,7 +137,7 @@ a.btn-social,
 
 .btn-twitter
 {
-    background-color: #83c3f3;
+    background-color: #E0E0E0;
 }
 .btn-twitter:hover
 {

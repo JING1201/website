@@ -13,6 +13,41 @@ li{
   text-align: center;
 }
 
+.section-1:hover{
+  opacity:0.5;
+}
+
+
+.section-1 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("img/section-1.jpg");
+  background-size: cover;
+  width: 98%;
+  height: 220px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 1400;
+  font-height:100;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+
 .sidenav {
     list-style: none;
     margin: 0;
@@ -31,7 +66,6 @@ li{
     padding: 8px 25px 3px 0px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Roboto', Helvetica, Arial, serif;
     text-align: right;
 
 }

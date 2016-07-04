@@ -5,7 +5,7 @@ body{
   font-family: 'Roboto', Helvetica, Arial, serif;
   width: 100%;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 li{
@@ -13,15 +13,55 @@ li{
   text-align: center;
 }
 
-.img-text {
+.sidenav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
 
-    position: absolute;
-    top: 10%;
-    left: 0;
-    width: 100%;
-    color: white;
-    font-size: 50px;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+.sidenav li a {
+    display: block;
+    color: #9E9E9E;
+    font-weight: 300;
+    padding: 8px 25px 3px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    text-align: right;
+
+}
+ 
+.sidenav li a.active {
+    color: #757575;
+}
+
+.sidenav li a:hover:not(.active) {
+    color: #757575;
+}
+
+@media screen and (max-width: 1024px){
+    .sidenav {
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    .sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left:0;}
+}
+
+@media screen and (max-width: 400px){
+    .sidenav li a {
+        text-align: center;
+        float: none;
+    }
 }
 
 .sidebar{

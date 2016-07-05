@@ -55,8 +55,10 @@ li{
 .section-3{
   background-image: url(../img/section-3.jpg);
 }
-
-
+.mission-img{
+  background-image: url(../img/mission.png);
+  background-size:100%;
+}
 
 .sidenav {
     list-style: none;
@@ -234,9 +236,3 @@ a.btn-social,
 {
     background-color: #55acee;
 }
-
-
-
-
-
-

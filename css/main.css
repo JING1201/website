@@ -13,6 +13,13 @@ li{
   text-align: center;
 }
 
+.about-text
+{
+  font-size: 14px;
+  padding:15px 20px 15px 5px;
+  text-align:left;
+}
+
 .section-grid:hover{
   opacity:0.5;
 }
@@ -56,6 +63,14 @@ li{
   background-image: url(../img/section-3.jpg);
 }
 .mission-img{
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 220px;
+  margin: 10px 0 20px 10px;
+  position: relative;
+  float: left;
+
   background-image: url(../img/mission.png);
   background-size:100%;
 }

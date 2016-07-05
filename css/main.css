@@ -13,19 +13,18 @@ li{
   text-align: center;
 }
 
-.section-1:hover{
+.section-grid:hover{
   opacity:0.5;
 }
 
-
-.section-1 {
+.section-grid {
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),
-    url("img/section-1.jpg");
+    );
   background-size: cover;
+  background-position: center;
   width: 98%;
   height: 220px;
   margin: 10px 0 0 10px;
@@ -37,15 +36,26 @@ li{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 1400;
-  font-height:100;
+  font-height:200;
   text-transform: uppercase;
   position: absolute;
   margin: 0;
   top: 50%;
   left: 50%;
-  font-size: 30px;
+  font-size: 45px;
   transform: translate(-50%, -50%);
 }
+
+.section-1{
+  background-image: url(../img/section-1.jpg);
+}
+.section-2{
+  background-image: url(../img/section-2.jpg);
+}
+.section-3{
+  background-image: url(../img/section-3.jpg);
+}
+
 
 
 .sidenav {
@@ -118,10 +128,6 @@ background-color: white;
 .nav-grid{
 float:center;
 padding:15px;
-}
-
-.section-grid{
-  padding:5px;
 }
 
 .listserv-grid{

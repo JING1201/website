@@ -8,6 +8,10 @@ body{
   padding-top: 20px;
 }
 
+h1{
+  color:#9a9a9a;
+}
+
 li{
   list-style:none; 
   text-align: center;

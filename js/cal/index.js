@@ -185,8 +185,14 @@ $('#calendar').fullCalendar({
             start: '2016-04-15',
             color: 'green',  
             textColor: 'white'
-        }
-        
+        },
+        {
+            title: 'Summer Break',
+            start: '2016-05-01',
+            end:'2016-08-22',
+            color: 'grey',  
+            textColor: 'white'
+        }        
 
 
     ],

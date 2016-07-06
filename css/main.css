@@ -251,6 +251,10 @@ padding:15px;
   height:110px;
 }
 
+.circle-grid{
+  text-align: right;
+}
+
 .contact-grid{
   margin-left:auto; 
   margin-right:auto;

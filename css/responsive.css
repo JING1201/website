@@ -1,5 +1,6 @@
 @media screen and (max-width: 1075px)
 {
+  
   .logo-grid{
     padding-bottom:0;
   }
@@ -19,6 +20,13 @@
   }
   .listserv-grid{
   padding-top: 5px;
+}
+.circle-grid{
+  text-align: center;
+  padding: 10px;
+}
+#name,#contact-info{
+  text-align: center;
 }
 
 }

@@ -12,16 +12,39 @@ h1{
   color:#9a9a9a;
 }
 
+h3{
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
 li{
   list-style:none; 
+  margin:none;
   text-align: center;
+}
+
+#schools li{
+  text-align: left;
 }
 
 .about-text
 {
+  color:#9a9a9a;
   font-size: 14px;
   padding:15px 20px 15px 5px;
   text-align:left;
+}
+
+.about-sub-grid{
+  padding:30px 0 50px 0;
+
+}
+
+.about-subtext{
+  font-size:14px;
+  line-height: 1.5;
+  text-align: left;
+
 }
 
 .section-grid:hover{
@@ -75,8 +98,15 @@ li{
   position: relative;
   float: left;
 
-  background-image: url(../img/mission.png);
+  background-image: url(../img/about/mission.png);
   background-size:100%;
+}
+
+.about-logo{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 .sidenav {
@@ -153,13 +183,11 @@ padding:15px;
 
 .listserv-grid{
   padding-top: 180px;
-
 }
 
 .grey{
   color:grey;
 }
-
 
 .form-group{
   text-align: center;

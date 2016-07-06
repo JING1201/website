@@ -1,11 +1,25 @@
+/* ==========================================================================
+   Main styles 
+   ========================================================================== */
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
 body{
-  color: #B1B9C1;
   font-size: 1em;
   font-weight: 200;
   font-family: 'Roboto', Helvetica, Arial, serif;
   width: 100%;
   text-align: center;
-  padding-top: 10px;
+}
+
+.top-border
+{
+  border-style: solid;
+  border:white;
+  border-top: 10px solid #778492;
 }
 
 h1{
@@ -29,26 +43,89 @@ li{
   text-align: center;
 }
 
-.about-text
-{
-  color:#9a9a9a;
-  font-size: 14px;
-  padding:15px 20px 15px 5px;
-  text-align:left;
-  line-height: 1.5;
+
+/* ==========================================================================
+   Nav bar 
+   ========================================================================== */
+
+.logo{
+  max-height: 60px;
+  padding:5px 10px 5px 0;
 }
 
-.about-sub-grid{
-  padding:30px 0 20px 0;
-
+.logo-grid{
+  margin:25px 0px 0px 0px;
+  padding-bottom: 100px;
 }
 
-.about-subtext{
-  font-size:14px;
-  line-height: 1.5;
-  text-align: left;
+header{
+  background:#6ab47b;
+  float: left;
+  margin:0 0 30px 0;
+  padding:5px 0 0 0 ;
+}
+
+
+.sidenav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidenav li a {
+    display: block;
+    color: #9E9E9E;
+    font-weight: 300;
+    padding: 8px 25px 3px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: right;
 
 }
+ 
+.sidenav li a.active {
+    color: #757575;
+}
+
+.sidenav li a:hover:not(.active) {
+    color: #757575;
+}
+
+
+.sidebar{
+vertical-align: right;
+}
+
+.btn{
+color:grey;
+background-color: white;
+}
+
+.nav-grid{
+float:center;
+padding:15px;
+}
+
+.listserv-grid{
+  padding-top: 180px;
+}
+
+.grey{
+  color:grey;
+}
+
+.form-group{
+  text-align: center;
+}
+
+/* ==========================================================================
+   Index 
+   ========================================================================== */
 
 .section-grid:hover{
   opacity:0.5;
@@ -64,7 +141,7 @@ li{
   background-position: center;
   width: 98%;
   height: 220px;
-  margin: 10px 0 0 10px;
+/*  margin: 10px 0 0 10px;*/
   position: relative;
   float: left;
 }
@@ -93,21 +170,29 @@ li{
 .section-3{
   background-image: url(../img/section-3.jpg);
 }
-.mission-img{
-  background-size: cover;
-  background-position: center;
-  width: 98%;
-  height: 220px;
-  margin: 10px 0 20px 10px;
-  position: relative;
-  float: left;
 
-  background-image: url(../img/about/mission.png);
-  background-size:100%;
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.about-text
+{
+  color:#9a9a9a;
+  font-size: 14px;
+  padding:15px 20px 15px 5px;
+  text-align:left;
+  line-height: 1.5;
 }
 
-.contact-img{
-  style=width:100px;height:100px;
+.about-sub-grid{
+  padding:30px 0 20px 0;
+
+}
+
+.about-subtext{
+  font-size:14px;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .about-logo{
@@ -140,6 +225,26 @@ li{
     text-decoration: underline;
 }
 
+.mission-img{
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 220px;
+  margin: 10px 0 20px 10px;
+  position: relative;
+  float: left;
+
+  background-image: url(../img/about/mission.png);
+  background-size:100%;
+}
+
+/* ==========================================================================
+   Contact 
+   ========================================================================== */
+.contact-img{
+  style=width:100px;height:100px;
+}
+
 .contact-grid{
   margin-left:auto; 
   margin-right:auto;
@@ -152,92 +257,9 @@ li{
   width: auto;
 }
 
-.sidenav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 16%;
-    background-color: white;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-.sidenav li a {
-    display: block;
-    color: #9E9E9E;
-    font-weight: 300;
-    padding: 8px 25px 3px 0px;
-    text-decoration: none;
-    font-size: 17px;
-    text-align: right;
-
-}
- 
-.sidenav li a.active {
-    color: #757575;
-}
-
-.sidenav li a:hover:not(.active) {
-    color: #757575;
-}
-
-@media screen and (max-width: 1024px){
-    .sidenav {
-        width:100%;
-        height:auto;
-        position:relative;
-    }
-    .sidenav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left:0;}
-}
-
-@media screen and (max-width: 400px){
-    .sidenav li a {
-        text-align: center;
-        float: none;
-    }
-}
-
-.sidebar{
-vertical-align: right;
-}
-
-.logo{
-  max-height: 60px;
-}
-
-.logo-grid{
-  padding-bottom: 100px;
-}
-
-.btn{
-color:grey;
-background-color: white;
-}
-
-.nav-grid{
-float:center;
-padding:15px;
-}
-
-.listserv-grid{
-  padding-top: 180px;
-}
-
-.grey{
-  color:grey;
-}
-
-.form-group{
-  text-align: center;
-}
-
-
-/** social media **/
+/* ==========================================================================
+   Social Media
+   ========================================================================== */
 .social{
   padding-top: 20px;
 }
@@ -283,29 +305,15 @@ a.btn-social,
     transform: scale(1.3);
     webkit-transform: scale(1.3);
 }
-.btn-social.btn-xs
-{
-    font-size: 9px;
-    height: 24px;
-    line-height: 13px;
-    margin: 6px 2px;
-    width: 24px;
-}
+
 .btn-social.btn-sm
 {
-    font-size: 13px;
+    font-size: 19px;
+    padding:9px 0px 0px 0px;
     height: 36px;
     line-height: 18px;
     margin: 6px 2px;
     width: 36px;
-}
-.btn-social.btn-lg
-{
-    font-size: 22px;
-    height: 72px;
-    line-height: 40px;
-    margin: 10px 6px;
-    width: 50px;
 }
 
 .btn-facebook

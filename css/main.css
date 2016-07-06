@@ -33,6 +33,7 @@ li{
   font-size: 14px;
   padding:15px 20px 15px 5px;
   text-align:left;
+  line-height: 1.5;
 }
 
 .about-sub-grid{
@@ -107,7 +108,31 @@ li{
   max-width: 100%;
   height: auto;
   margin: auto;
+  padding: 10px 0 10px 0;
 }
+
+.about-btn-grid
+{
+  float:left;
+}
+
+.btn-border{
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.btn-border.btn-info {
+    background: none;
+    border: 1px solid grey;
+    color: grey;
+}
+.btn-border.btn-info:hover,
+.btn-border.btn-info:active {
+    text-decoration: underline;
+}
+
 
 .sidenav {
     list-style: none;

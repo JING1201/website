@@ -190,7 +190,7 @@ $('#calendar').fullCalendar({
             title: 'Summer Break',
             start: '2016-05-01',
             end:'2016-08-22',
-            color: 'grey',  
+            color: 'lightgrey',  
             textColor: 'white'
         }        
 

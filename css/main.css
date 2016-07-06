@@ -5,11 +5,12 @@ body{
   font-family: 'Roboto', Helvetica, Arial, serif;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 h1{
   color:#9a9a9a;
+  text-align: center;
 }
 
 h3{
@@ -17,14 +18,15 @@ h3{
   margin: 0 0 10px 0;
 }
 
+h4{
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
 li{
   list-style:none; 
   margin:none;
   text-align: center;
-}
-
-#schools li{
-  text-align: left;
 }
 
 .about-text
@@ -37,7 +39,7 @@ li{
 }
 
 .about-sub-grid{
-  padding:30px 0 50px 0;
+  padding:30px 0 20px 0;
 
 }
 
@@ -68,7 +70,8 @@ li{
 }
 
 .mid h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family:'Lato', sans-serif;
+  font-weight: 900;
   color: white;
   font-weight: 1400;
   font-height:200;
@@ -103,6 +106,10 @@ li{
   background-size:100%;
 }
 
+.contact-img{
+  style=width:100px;height:100px;
+}
+
 .about-logo{
   display: block;
   max-width: 100%;
@@ -133,6 +140,17 @@ li{
     text-decoration: underline;
 }
 
+.contact-grid{
+  margin-left:auto; 
+  margin-right:auto;
+  overflow: auto;
+  padding:10px 0 10px 0;
+}
+
+.contact-text{
+  height: 100px;
+  width: auto;
+}
 
 .sidenav {
     list-style: none;

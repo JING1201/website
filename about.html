@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800" rel="stylesheet">
+        <link rel="stylesheet" href="js/animsition/animsition.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +32,7 @@
       </a>
     </div>
 
-      <!--nav-->
+    <!--nav-->
     <nav>
       <ul>
       <li><a href="index.html">Home</a></li>
@@ -68,9 +69,9 @@
     <div class="main-grid col-md-10">
 
       <div class="row mission-bg">
-      <div class="mission-img"></div>
+      <div class="mission-img animsition"></div>
 
-      <div class="mission-text">
+      <div class="mission-text animsition">
         <p>Gainesville Women Coders is a student run organization at the University
         of Florida, that acts as one of the outreach programs of UF's Women in
         Computer Science and Engineering(WiCSE). Our mission is two fold:
@@ -102,16 +103,16 @@
     <!--about GWC (National)-->
     <div class="row gwc-about-grid">
       <div class="col-md-4"><a href="http://www.girlswhocode.com">
-            <img src="img/about/gwc.png" class="about-logo"></a>
+            <img src="img/about/gwc.png" class="about-logo animsition"></a>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 animsition">
         <h3>Girls Who Code</h3>
         <p class="about-subtext">Girls Who Code is a national organization that is working to close the
         gender gap in computing fields, by teaching girls in middle and high school
         how to code. We felt that opening a chapter of Girls Who Code was a great
         starting point to developing a community of female coders in Gainesville.</p>
         <br>
-        <div class="about-btn-grid">
+        <div class="about-btn-grid animsition">
         <p><a href="http://www.girlswhocode.com" class="btn btn-border btn-info">LEARN MORE</a></p>
         </div>
       </div>
@@ -119,10 +120,10 @@
 
     <!--about GCC-->
     <div class="row gcc-about-grid">
-      <div class="col-md-4">
+      <div class="col-md-4 animsition">
           <img src="img/about/gcc.png" class="about-logo"/>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 animsition">
 
         <h3>Gainesville Coding Club</h3>
         <p class="about-subtext">
@@ -144,10 +145,15 @@
       </div>
   </div>
   </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-       <!--browser-sync script-->
+    <!--animsition-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="js/animsition/jquery.animsition.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!--browser-sync script-->
     <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:8082/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));
     //]]></script>
+    
     </body>
 </html>

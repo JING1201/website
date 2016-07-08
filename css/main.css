@@ -5,6 +5,10 @@ html{
   height: 100%;
 }
 
+.page-title-grid{
+  padding-top:10px;
+}
+
 #wrapper{
   max-width: 940px;
   margin: 0 auto;
@@ -129,7 +133,7 @@ padding:15px;
    ========================================================================== */
 
 .main-grid{
-  background-color:#F5F5F5;
+  background-color:#E4E6EA;
 }
 
 .section-grid:hover{

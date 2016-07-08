@@ -29,12 +29,7 @@ body{
 h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  color:#9a9a9a;
-}
-
-h3{
-  text-align: left;
-  margin: 0 0 10px 0;
+  color:#9DA5B2;
 }
 
 h4{
@@ -77,7 +72,7 @@ header{
     margin: 0;
     padding: 0;
     width: 16%;
-    background-color: white;
+    background-color:white;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -133,6 +128,10 @@ padding:15px;
    Index 
    ========================================================================== */
 
+.main-grid{
+  background-color:#F5F5F5;
+}
+
 .section-grid:hover{
   opacity:0.5;
 }
@@ -147,7 +146,7 @@ padding:15px;
   background-position: center;
   width: 98.7%;
   height: 230px;
-  margin: 5px 0 0 3px;
+  margin: 5px 5px 0 3px;
   position: relative;
   float: left;
 }
@@ -180,23 +179,51 @@ padding:15px;
    About
    ========================================================================== */
 
-.about-text
+.link{
+  color:white;
+  font-style: bold;
+}
+
+.link:hover{
+  color:white;
+  font-style:underline;
+}
+
+.mission-bg{
+  background-color:#F5F5F5;
+}
+
+.mission-text
 {
-  color:#9a9a9a;
+  color:black;
   font-size: 14px;
-  padding:15px 20px 15px 5px;
+  padding:15px 20px 15px 20px;
   text-align:left;
   line-height: 1.5;
 }
 
-.about-sub-grid{
-  padding:30px 0 20px 0;
 
+.gwc-about-grid{
+  padding:30px 0 20px 0;
+  background-color:#686E76;
+
+}
+
+.gcc-about-grid{
+  padding:30px 0 20px 0;
+  background-color: #686E76;
+
+}
+
+h3{
+  text-align: left;
+  margin: 0 0 10px 0;
 }
 
 .about-subtext{
   font-size:14px;
   line-height: 1.5;
+  color:white;
   text-align: left;
 }
 
@@ -222,8 +249,8 @@ padding:15px;
 
 .btn-border.btn-info {
     background: none;
-    border: 1px solid grey;
-    color: grey;
+    border: 1px solid white;
+    color: white;
 }
 .btn-border.btn-info:hover,
 .btn-border.btn-info:active {
@@ -259,7 +286,9 @@ padding:15px;
   margin-left:auto; 
   margin-right:auto;
   overflow: auto;
+  background-color: white;
   padding:10px 0 10px 0;
+  margin:10px;
 }
 
 .contact-text{
@@ -278,6 +307,14 @@ padding:15px;
   text-align: left;
   font-size: 15px;
 }
+
+/* ==========================================================================
+   Calendar
+   ========================================================================== */
+   #calendar{
+     background-color:white;
+     padding:10px;
+   }
 
 /* ==========================================================================
    Social Media

@@ -8,7 +8,7 @@ console.log('Success!');
 
 gulp.task('browser-sync', function() {
 browserSync({
-files: 'index.html, main.css, about.html, calendar.html, contact.html', 
+files: 'index.html, css/main.css, about.html, calendar.html, contact.html, css/responsive.css', 
 port: 8082
 });
 });

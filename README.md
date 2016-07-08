@@ -1,5 +1,3 @@
-
-
 ##CDN:##
 - Maxcdn (Bootstrap) 
 - Google fonts
@@ -11,8 +9,8 @@
 
 ##Quick start guide##
 - Browsersync: 
-    1. Paste the following in the terminal
+    (1) Paste the following in the terminal
     ```
     gulp browser-sync
     ```
-    2. Start browser using http (instead of https)
+    (2) Start browser using http (instead of https)

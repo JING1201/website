@@ -95,10 +95,12 @@ header{
  
 .sidenav li a.active {
     color: #757575;
+    font-weight:500;
 }
 
 .sidenav li a:hover:not(.active) {
     color: #757575;
+    font-weight:500;
 }
 
 

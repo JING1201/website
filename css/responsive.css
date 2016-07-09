@@ -1,7 +1,7 @@
 @media screen and (max-width: 1075px)
 {
   .logo-grid{
-    padding-bottom:0;
+    padding-bottom:10px;
   }
   nav {
   text-align: center;

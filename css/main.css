@@ -1,8 +1,14 @@
 /* ==========================================================================
    Main styles 
    ========================================================================== */
-html{
-  height: 100%;
+html,body{
+  min-height: 100%;
+  margin:0;
+  min-width:100%;
+}
+
+ body {
+    overflow-x:hidden;  
 }
 
 .page-title-grid{
@@ -19,7 +25,7 @@ body{
   font-size: 12px;
   font-weight: 200;
   font-family: 'Roboto', Helvetica, Arial, serif;
-  width: 100%;
+  min-width: 100%;
   text-align: center;
 }
 
@@ -44,7 +50,7 @@ h4{
 
 li{
   list-style:none; 
-  margin:none;
+  margin:0;
   text-align: center;
 }
 
@@ -61,6 +67,7 @@ li{
 .logo-grid{
   margin:25px 0px 0px 0px;
   padding-bottom: 100px;
+  
 }
 
 header{
@@ -73,7 +80,6 @@ header{
 
 .sidenav {
     list-style: none;
-    margin: 0;
     padding: 0;
     width: 16%;
     background-color:white;
@@ -93,7 +99,7 @@ header{
 
 }
  
-.sidenav li a.active {
+.active {
     color: #757575;
     font-weight:500;
 }
@@ -136,6 +142,8 @@ padding:15px;
 
 .main-grid{
   background-color:#E4E6EA;
+  min-height: 100%;
+  margin:0;
 }
 
 .section-grid:hover{
@@ -161,7 +169,6 @@ padding:15px;
   font-family:'Open sans', sans-serif;
   font-weight: 700;
   color: white;
-  font-height:60;
   text-transform: uppercase;
   position: absolute;
   margin: 0;
@@ -187,7 +194,6 @@ padding:15px;
 
 .link{
   color:white;
-  font-style: bold;
 }
 
 .link:hover{
@@ -197,6 +203,7 @@ padding:15px;
 
 .mission-bg{
   background-color:#F5F5F5;
+  height: 100%;
 }
 
 .mission-text

@@ -1,3 +1,11 @@
+##Quick start guide##
+- Browsersync: 
+  (1) Paste the following in the terminal
+  ```
+  gulp browser-sync
+  ```
+  (2) Start browser using http (instead of https)
+
 ##CDN:##
 - Maxcdn (Bootstrap) 
 - Google fonts
@@ -9,10 +17,4 @@
 - Full Calendar: http://fullcalendar.io/
 - Page transitions: http://git.blivesta.com/animsition/
 
-##Quick start guide##
-- Browsersync: 
-  (1) Paste the following in the terminal
-  ```
-  gulp browser-sync
-  ```
-  (2) Start browser using http (instead of https)
+  

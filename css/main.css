@@ -97,10 +97,9 @@ header{
     font-size: 17px;
     text-align: right;
 }
- 
+
 .active {
-    color: #757575;
-    font-weight:500;
+  color:blue;
 }
 
 .sidenav li a:hover:not(.active) {

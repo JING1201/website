@@ -1,10 +1,5 @@
 ##Quick start guide##
-- Browsersync: 
-  (1) Paste the following in the terminal
-  ```
-  gulp browser-sync
-  ```
-  (2) Start browser using http (instead of https)
+- Browsersync: To begin, type "gulp browser-sync" into the terminal. (If you are using c9, be sure to use http instead of https)
 
 ##CDN:##
 - Maxcdn (Bootstrap) 

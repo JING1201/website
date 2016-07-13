@@ -187,6 +187,34 @@ background-color: white;
   background-image: url(../img/section-3.jpg);
 }
 
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+
+
+.slide-grid {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+  background-size: cover;
+  background-position: center;
+  width: 98.7%;
+  height: 900px;
+  margin: 5px 5px 0 3px;
+  position: relative;
+  float: left;
+}
+
+
+.slide-1{
+  background-image: url(http://dummyimage.com/hd1080);
+}
+
+
 /* ==========================================================================
    About
    ========================================================================== */

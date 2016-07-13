@@ -193,7 +193,6 @@ background-color: white;
    ========================================================================== */
 
 
-
 .slide-grid {
   background: 
     linear-gradient(
@@ -203,15 +202,29 @@ background-color: white;
   background-size: cover;
   background-position: center;
   width: 98.7%;
-  height: 900px;
+  height: 700px;
   margin: 5px 5px 0 3px;
   position: relative;
   float: left;
 }
 
 
+.slide-text h2 {
+  font-family:'Open sans', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  top: 30%;
+  left: 50%;
+  font-size: 55px;
+  transform: translate(-50%, -50%);
+}
+
+
 .slide-1{
-  background-image: url(http://dummyimage.com/hd1080);
+  background-image: url(../img/full-res/slide-1.jpg);
 }
 
 

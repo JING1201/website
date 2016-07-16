@@ -144,6 +144,11 @@ background-color: white;
   min-height: 100vh;
   margin:0;
 }
+  
+  .slick-prev:before,
+  .slick-next:before {
+      color: black;
+  }
 
 .section-grid:hover{
   opacity:0.5;

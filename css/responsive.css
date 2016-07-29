@@ -1,12 +1,18 @@
 @media screen and (max-width: 1075px)
 {
   .logo-grid{
-    padding-bottom:10px;
+    padding: 0px 0px 0px 25px;
+    margin:8px 0px 0px 0;
+    text-align: left;
+    display:inline-block;
+    float:left;
   }
   nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+  text-align: right;
+  padding: 11px 0px 0px 50px;
+  margin: 0;
+  display:inline-block;
+  float:right;
   }
   nav ul {
     padding: 0;
@@ -32,7 +38,6 @@
   margin:0;
   float:right;
   width: 25%;
-  
 }
 .listserv-grid{
   padding:0;

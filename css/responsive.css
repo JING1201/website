@@ -1,4 +1,4 @@
-@media screen and (max-width: 1075px)
+@media screen and (max-width: 1191px)
 {
   .logo-grid{
     padding: 0px 0px 0px 25px;
@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1191px){
     .sidenav {
         width:100%;
         height:auto;
@@ -80,6 +80,13 @@
         padding: 15px;
     }
     div.content {margin-left:0;}
+    
+    .col-xs-12{
+      width:100%;
+    }
+    .col-md-2, .col-md-10{
+      width:100%;
+    }
 }
 
 @media screen and (max-width: 400px){

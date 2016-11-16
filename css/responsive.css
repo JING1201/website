@@ -1,22 +1,17 @@
-@media screen and (max-width: 715px)
-{
-  
-}
-
 @media screen and (max-width: 1191px)
 {
   .logo-grid{
     padding: 0px 0px 0px 25px;
-    margin:8px 0px 0px 0;
+    margin:auto;
     text-align: left;
-    display:inline-block;
+    display:block;
     float:left;
   }
   nav {
   text-align: right;
   padding: 11px 0px 0px 50px;
-  margin: 0;
-  display:inline-block;
+  margin: auto;
+  display:block;
   float:right;
   }
   nav ul {
@@ -94,9 +89,3 @@
     }
 }
 
-@media screen and (max-width: 400px){
-    .sidenav li a {
-        text-align: center;
-        float: none;
-    }
-}

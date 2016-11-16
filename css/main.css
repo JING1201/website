@@ -144,6 +144,7 @@ background-color: white;
   min-height: 100vh;
   margin:0;
 }
+  
   .slick-prev:before,
   .slick-next:before {
       color: black;
@@ -220,7 +221,7 @@ background-color: white;
   text-transform: uppercase;
   position: absolute;
   margin: 0;
-  top: 40%;
+  top: 30%;
   left: 50%;
   font-size: 55px;
   transform: translate(-50%, -50%);
@@ -423,11 +424,11 @@ a.btn-social,
 .btn-social.btn-sm
 {
     font-size: 19px;
-    padding:9px 0px 0px 0px;
     height: 37px;
     line-height: 18px;
     margin: 6px 2px;
     width: 37px;
+    padding:9px 0px 0px 0px;
 }
 
 .btn-facebook

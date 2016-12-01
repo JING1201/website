@@ -91,11 +91,12 @@ header{
 .sidenav li a {
     display: block;
     color: #9E9E9E;
-    font-weight: 300;
+    font-weight: 200;
     padding: 8px 25px 3px 0px;
     text-decoration: none;
     font-size: 17px;
     text-align: right;
+    font-weight:200;
 }
 
 .active {

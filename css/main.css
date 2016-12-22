@@ -35,79 +35,80 @@ li{
    Nav bar 
    ========================================================================== */
 
-.logo{
-  max-height: 60px;
-  padding:5px 10px 5px 0;
-}
-
-.logo-grid{
-  margin:25px 0px 0px 0px;
-  padding-bottom: 100px;
-}
-
-header{
-  background:#6ab47b;
-  float: left;
-  margin:0 0 30px 0;
-  padding:5px 0 0 0 ;
-}
-
-.sidenav {
-    list-style: none;
-    padding: 0;
-    width: 16%;
-    background-color:white;
+ul.sidenav {
+    clear:both;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: white;
     position: fixed;
+    width: 16.2%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
+    float:left;
+    margin-left:-1em;
+    font-size: 17px;
 }
 
-.sidenav li a {
+ul.sidenav li a {
     display: block;
     color: #9E9E9E;
-    font-weight: 200;
-    padding: 8px 25px 3px 0px;
+    padding: 5px 16px;
+    text-align:right;
     text-decoration: none;
-    font-size: 17px;
-    text-align: right;
+    font-weight:400;
+}
+
+.top-border-nav
+{
+  border-style: solid;
+  border:white;
+  border-top: 13px solid #329AFB;
+}
+ 
+ul.sidenav li a.active {
+    font-weight:100;
+}
+
+#link:hover{
+    color: #757575;
+    font-weight:500;
+    /*padding-bottom: 2px;*/
+    /*border-bottom: 5px solid #E4E6EA;*/
+}
+
+.active{
     font-weight:200;
 }
 
-.active {
-  color:blue;
+.top-border-main
+{
+  border-style: solid;
+  border:white;
+  border-top: 13px solid #8899A3; 
 }
 
-.sidenav li a:hover:not(.active) {
-    color: #757575;
-    font-weight:500;
+
+.navbar-toggle .icon-bar{
+    background-color: black;
 }
 
-
-.sidebar{
-vertical-align: right;
+.navbar-header
+{
+    display:none;
 }
 
-.btn{
-color:grey;
-background-color: white;
+.logo
+{
+   margin:5%;   
 }
 
-.nav-grid{
-  float:center;
-  padding:15px;
-}
-
-.listserv-grid{
-  padding-top: 90px;
-  text-align: center;
-}
-
-.grey{
-  color:grey;
-}
-
-.form-group{
-  text-align: center;
+#large-logo
+{
+    width:105%;
+    height:105%;
+    margin:30px 0 100px 0;
+    padding: 0px 5% 0px 0;
 }
 
 /* ==========================================================================

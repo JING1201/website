@@ -192,7 +192,14 @@ $('#calendar').fullCalendar({
             end:'2016-08-22',
             color: 'lightgrey',  
             textColor: 'white'
+        },
+        {
+            title: 'GHS - Meeting',
+            start: '2017-01-23',
+            color: 'lightgrey',  
+            textColor: 'white'
         }        
+        
 
 
     ],

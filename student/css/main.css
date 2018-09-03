@@ -1,0 +1,166 @@
+/* ==========================================================================
+   Main styles 
+   ========================================================================== */
+html,
+body {
+    background: white;
+    margin: 0;
+    font-family: 'consolas', sans-serif;
+}
+
+.container-fluid{
+    width:90%;
+}
+
+img:hover{
+    filter:saturate(8);
+    transition:10s;
+    -webkit-user-drag: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Nav bar
+   ========================================================================== */
+
+.nav-container{
+    text-align:center;
+    width:100%;
+    padding:50px 0 20px 0 ;
+    background-color:white;
+    color:white;
+    /*display: block; margin-left: auto;*/
+}
+
+.center{
+    text-align:center;
+}
+
+.navbar{
+    background:white;
+}
+
+
+/* ==========================================================================
+   Index page 
+   ========================================================================== */
+
+.box-grid{
+    margin:30px 0px;
+}
+
+.box-row{
+    margin:20px;
+}
+
+.box{
+    display:inline-block;
+    padding:90px;
+    margin-bottom:20px;
+    background-color:#6D7381;
+
+    font-size:15px;
+    
+    color:white;
+    cursor: pointer;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    min-height:90%;
+    width:100%;
+}
+
+.box:hover{
+    background-color:#60656f;
+    transform: translateY(3px);
+}
+
+.btn-primary:focus,
+.btn-info:hover,
+.btn-info:focus,
+.btn-info
+.box:active {
+  background-color: #60656f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.box:focus {
+  color: #60656f;
+}
+
+.blue, .blue:hover{ background-color: #4274E0;box-shadow:0 6px 10px #2d51a3;}
+.red, .red:hover{background-color: #D54A50; box-shadow: 0 6px 10px #b2393e;}
+.yellow, .yellow:hover{ background-color: #F49032; box-shadow: 0 6px 10px #db8534;}
+.green, .green:hover{background-color: #3EE79B; box-shadow: 0 6px 10px #37cc89;}
+.pink, .pink:hover{ background-color: #D8205E; box-shadow: 0 6px 10px #af184b;}
+.navy, .navy:hover{ background-color: #1E2E6E; box-shadow: 0 6px 10px #182559;}
+.orange, .orange:hover{ background-color: #FDC003; box-shadow: 0 6px 10px #e0aa02;}
+.purple, .purple:hover{ background-color: #3C0978; box-shadow: 0 6px 10px #26044f;}
+.teal, .teal:hover{ background-color: #4FAC95; box-shadow: 0 6px 10px #357C6A;}
+.neon-blue, .neon-blue:hover{background-color: #3BACFB; box-shadow: 0 6px 10px #31a0ed}
+
+
+.reference-link, .reference-link:hover{ background-color: #F3F5F6; color:#2795EE;}
+.reference-link-2, .reference-link-2:hover{ background-color: #F3F5F6; color:#4274E0;}
+.half{min-height:45%;}
+a:link, a:hover{text-decoration: none;}
+
+
+/* ==========================================================================
+   Modal 
+   ========================================================================== */
+
+.modal.modal-wide .modal-dialog {
+  min-height:100%;
+  width: 90%;
+}
+
+.modal-content{
+    border-radius: 10px;
+    border:0;
+}
+
+.modal-backdrop {
+   background-color:#373646;
+   opacity:1 !important;
+}
+
+
+.modal-lg {
+    min-width:66% !important;
+    max-height:100% !important;
+}
+
+.modal-body{
+    max-height:100%; 
+}
+
+.slide{
+    margin:15px;
+}
+
+.slide-grid{
+    margin-top:55px;
+    display:block;
+    width:100%;
+    padding:5px;
+    border-radius:8px;
+    
+    text-align:center;
+    vertical-align: middle;
+    background-color:#494F5D;
+}
+
+
+.jsfiddle-iframe{
+    margin: 25px 0px 20px 0px;
+}
